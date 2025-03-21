@@ -6,13 +6,14 @@
 
 class Coordenada:
 
-    # método contructor
+    # método constructor
     def __init__(self, x, y):
         self.X = x
         self.Y = y
     # método para mostrar coordenada
     def mostrarCoordenada(self):
         print("(", self.X, ",", self.Y, ")")
+
 # clase cuadrado
 
 class Cuadrado:
@@ -24,7 +25,7 @@ class Cuadrado:
         self.V3 = v3
         self.V4 = v4
 
-     # método para mostrar los vértices
+    # método para mostrar los vértices
     def mostrarVertices(self):
         print("El cuadrado está compuesto por los siguientes vértices: ")
         self.V1.mostrarCoordenada()
